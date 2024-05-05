@@ -77,7 +77,11 @@ input {
 }
 
 #reflect {
-  margin-bottom: em;
+  margin-bottom: 1em;
+}
+
+#submit {
+    margin-bottom: 2em;
 }
 
 #grateful-for, #make-great, #daily-affirm, #highlight-list {
