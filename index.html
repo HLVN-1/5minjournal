@@ -4,39 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Take 5 mins & Journal!</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./node_modules/papercss/dist/paper.css" />
   </head>
-  <body>
-    <h1>All it takes to have a good start to your day is 5 mins of writing.</h1>
-    <div id="quote">Gratitude unlocks the fullness of life.</div>
-    <div id="grateful">
-      <ol>
-        <li>hi</li>
-        <li>me</li>
-        <li>there</li>
-      </ol>
-    </div>
-    <div id="goals">
-      <ol>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ol>
-    </div>
-    <div id="affirmation">
-      <ol>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ol>
-    </div>
-    <div id="highlights">
-      <ol>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ol>
-    </div>
-    <div id="reflect"></div>
-  </body>
+  <div class="page">
+    <body>
+      <div id="header">
+        <h2>
+          All it takes to have a good start to your day is 5 mins of writing.
+        </h2>
+      </div>
+      <div id="quote">
+        <p>
+          Gratitude unlocks the fullness of life.<br /><br />- Someone Special
+        </p>
+      </div>
+      <div id="grateful">
+        <p id="grateful-for">I am grateful for...</p>
+        <ol>
+          <li><input /></li>
+          <li><input /></li>
+          <li><input /></li>
+        </ol>
+      </div>
+      <div id="goals">
+        <p id="make-great">What would make today great?</p>
+        <ol class="goals-three">
+          <li><input /></li>
+          <li><input /></li>
+          <li><input /></li>
+        </ol>
+      </div>
+      <div id="affirmation">
+        <p id="daily-affirm">Daily affirmation</p>
+        <ol class="affirm-three">
+          <li><input /></li>
+          <li><input /></li>
+          <li><input /></li>
+        </ol>
+      </div>
+      <div id="highlights">
+        <p id="highlight-list">Highlights of the Day</p>
+        <ol class="high-three">
+          <li><input /></li>
+          <li><input /></li>
+          <li><input /></li>
+        </ol>
+      </div>
+      <div id="reflect">
+        <p>What did I learn today?</p>
+        <ol class="learn-class">
+          <input id="learn-today" />
+        </ol>
+      </div>
+      <div id="submit">
+        <button type="submit">Save your thoughts for tomorrow.</button>
+      </div>
+    </body>
+  </div>
 </html>
