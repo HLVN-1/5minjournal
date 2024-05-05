@@ -1,5 +1,27 @@
 {
   "dependencies": {
     "papercss": "^1.9.2"
-  }
+  },
+  "name": "5minjournal",
+  "description": "Recreating the 5 minute journal through HTML, CSS, & JS.",
+  "version": "1.0.0",
+  "main": "script.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/HLVN-1/5minjournal.git"
+  },
+  "keywords": [
+    "journal",
+    "practice"
+  ],
+  "author": "Jason Newsom <jnewsom405@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HLVN-1/5minjournal/issues"
+  },
+  "homepage": "https://github.com/HLVN-1/5minjournal#readme"
 }
