@@ -5,4 +5,6 @@ I'm not a journaler/writer but I bought a daily journal to use several years ago
 
 I haven’t learned how to work with databases yet, but I want to be able to store each journal entry, retrieve past ones, and look at future dates! I need to figure out how to store an library of motivational quotes and then randomly show daily quotes from that array. 
 
+This is a good project for me to take on because it will demonstrate my understanding of HTML, CSS, JS, MongoDB, and of course, using GitHub and vc. 
+
 This is going to be a fun learning project and I hope to share this with everyone, writers and non-writers alike! I really think taking a few minutes a day to journal is a great way to add some positivity to your day.
