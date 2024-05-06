@@ -57,6 +57,13 @@ html {
   --primary-inverse: #fff;
 }
 
+#coming-soon {
+  color: #6c757d;
+  margin-bottom: 1rem;
+}
+
+
+
 #header {
   width: auto;
   text-align: center;
@@ -69,10 +76,10 @@ html {
 }
 
 input {
-  width: 50em;
+  width: 25rem;
 }
 
-#grateful, #goals, #affirmation, #highlights, #reflect, #submit {
+#grateful, #goals, #affirmation, #highlights, #reflect, #submit, #coming {
   text-align: center;
 }
 
@@ -81,7 +88,7 @@ input {
 }
 
 #submit {
-    margin-bottom: 2em;
+    margin-bottom: 1rem;
 }
 
 #grateful-for, #make-great, #daily-affirm, #highlight-list {
